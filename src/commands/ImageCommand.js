@@ -22,6 +22,7 @@ class ImageCommand extends Command {
         }).then(r => {
             if (r.data.hits.length > 0) {
                 const record = r.data.hits[(Math.floor(Math.random() * r.data.hits.length))];
+                console.log(message);
                 return message.reply(`Szukam ${args.query} ...`, {
                     files:[record.webformatURL]
                 });

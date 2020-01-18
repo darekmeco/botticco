@@ -9,7 +9,7 @@ class AntekCommand extends Command {
     }
 
     exec(message) {
-        return message.reply("Antek to bosy nie cycek :)");
+        return message.reply("Antek to bosy nie cycek :) UwU");
     }
 }
 
