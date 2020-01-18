@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node ./src/index.js",
     "server": "babel-node ./src/index.js",
-    "dev": "NODE_ENV=development npm-run-all server",
+    "dev": "npm-run-all server",
     "lint": "eslint --ext .js --ignore-path .gitignore ."
   },
   "dependencies": {
