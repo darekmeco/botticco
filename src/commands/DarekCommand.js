@@ -9,7 +9,7 @@ class DarekCommand extends Command {
     }
 
     exec(message) {
-        return message.reply("Darek");
+        return message.reply("***Darek***");
     }
 }
 
