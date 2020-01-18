@@ -1,0 +1,2 @@
+# botticco
+Discord Bot App
